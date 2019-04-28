@@ -349,7 +349,6 @@
 				0ABF743322656C880003ADED /* PublicInterface */,
 				0ACDC90622641443008ABB82 /* Controllers */,
 				0ACDC90922641443008ABB82 /* Models */,
-				0ACDC90722641443008ABB82 /* OutgoingServer */,
 				0ACDC90822641443008ABB82 /* Views */,
 			);
 			path = WKWebInteraction;
@@ -430,13 +429,6 @@
 				0ACDC90B22641631008ABB82 /* ZMMWKWebViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		0ACDC90722641443008ABB82 /* OutgoingServer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = OutgoingServer;
 			sourceTree = "<group>";
 		};
 		0ACDC90822641443008ABB82 /* Views */ = {
