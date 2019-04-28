@@ -1,0 +1,56 @@
+#transfer-Name{
+	margin-top: 10px;;
+	height: 44px;
+}
+#transfer-account{
+	margin-top: 1px;
+	height: 44px;
+}
+#transfer-BankCard{
+	margin-top: 1px;
+	height: 44px;
+	font-size: 15px;
+}
+
+.left{
+	width:100px;
+    	float: left;
+    	line-height: 44px;
+    	margin-left: 15px;
+    	font-size:15;
+}
+.right input{
+	height: 43px;
+    	border: none;
+    	background: transparent;
+ }
+.right button{
+	height: 44px;
+	border: none;
+	background: transparent;
+	margin-right: auto;
+}
+.right button img{
+	margin-right: 100px;
+	width: 15px;
+	height: 15px;
+}
+.div-submit{
+	margin-top: 20px;
+}
+#transfer-submit{
+	position: absolute;right: 15px;left: 15px;width:100% - 30px;
+	text-align: center;
+	border: 0px;
+	height: 44px;
+	line-height: 35px;
+	   /*  color: hsl(208, 50%, 40%) !important; */
+	color:#ffffff;
+	font-weight: bold;
+	/*background-image: -webkit-gradient(radial, 40% 0, 100, 60% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) )),url(../../images/btnlong.png);*/
+	background-color:#4196ea;
+	font-size: 18px;
+	text-decoration: none;
+	-webkit-border-radius: 6px;
+	
+}
