@@ -11,7 +11,6 @@
 		0A24DA1322707702009C8AAC /* transfer.css in Resources */ = {isa = PBXBuildFile; fileRef = 0A24DA0A22707702009C8AAC /* transfer.css */; };
 		0A24DA1422707702009C8AAC /* transfer.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A24DA0D22707702009C8AAC /* transfer.js */; };
 		0A24DA1522707702009C8AAC /* kucun2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A24DA0F22707702009C8AAC /* kucun2.png */; };
-		0A24DA1622707702009C8AAC /* .project in Resources */ = {isa = PBXBuildFile; fileRef = 0A24DA1022707702009C8AAC /* .project */; };
 		0A24DA1722707702009C8AAC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A24DA1122707702009C8AAC /* manifest.json */; };
 		0A33415C22696129008A2D8F /* ZMMTransferCodeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33415B22696129008A2D8F /* ZMMTransferCodeHandle.m */; };
 		0A33416122699E8F008A2D8F /* ZMMJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A33416022699E8F008A2D8F /* ZMMJSONParser.m */; };
@@ -65,7 +64,6 @@
 		0A24DA0A22707702009C8AAC /* transfer.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = transfer.css; sourceTree = "<group>"; };
 		0A24DA0D22707702009C8AAC /* transfer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = transfer.js; sourceTree = "<group>"; };
 		0A24DA0F22707702009C8AAC /* kucun2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kucun2.png; sourceTree = "<group>"; };
-		0A24DA1022707702009C8AAC /* .project */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = .project; sourceTree = "<group>"; };
 		0A24DA1122707702009C8AAC /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		0A33415A22696129008A2D8F /* ZMMTransferCodeHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMMTransferCodeHandle.h; sourceTree = "<group>"; };
 		0A33415B22696129008A2D8F /* ZMMTransferCodeHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMMTransferCodeHandle.m; sourceTree = "<group>"; };
@@ -158,10 +156,8 @@
 			children = (
 				0A24DA0822707702009C8AAC /* index.html */,
 				0A24DA0922707702009C8AAC /* css */,
-				0A24DA0B22707702009C8AAC /* unpackage */,
 				0A24DA0C22707702009C8AAC /* js */,
 				0A24DA0E22707702009C8AAC /* img */,
-				0A24DA1022707702009C8AAC /* .project */,
 				0A24DA1122707702009C8AAC /* manifest.json */,
 			);
 			path = Transfer;
@@ -173,13 +169,6 @@
 				0A24DA0A22707702009C8AAC /* transfer.css */,
 			);
 			path = css;
-			sourceTree = "<group>";
-		};
-		0A24DA0B22707702009C8AAC /* unpackage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = unpackage;
 			sourceTree = "<group>";
 		};
 		0A24DA0C22707702009C8AAC /* js */ = {
@@ -606,7 +595,6 @@
 				0AB845E122607F10005A248F /* LaunchScreen.storyboard in Resources */,
 				0A98BA13226F304200CFADAA /* indexSimple.html in Resources */,
 				0AB845DE22607F10005A248F /* Assets.xcassets in Resources */,
-				0A24DA1622707702009C8AAC /* .project in Resources */,
 				0A24DA1522707702009C8AAC /* kucun2.png in Resources */,
 				0A24DA1322707702009C8AAC /* transfer.css in Resources */,
 				0AB845DC22607F0E005A248F /* Main.storyboard in Resources */,
