@@ -191,7 +191,6 @@ WKScriptMessageHandler
 -(void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message
 {
     NSLog(@"%@",message.name);//方法名
-    NSLog(@"%@",message.body);//传递的数据
     if (![NSString strNilOrEmpty:message.name]) {
         id<ZMMWebCodeBaseHandleInterface> codeHandle = [self.jshandleCenter findRegisterCodehandle:message.name];
          [codeHandle setWebViewController:self];
